@@ -1,1 +1,21 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
 
+int main() {
+ 
+int adim = 0;   
+int sayi;
+cin >> sayi;
+
+while (sayi != 1)
+{
+    adim += 1;
+    if (sayi % 2 == 0)
+        sayi = sayi/2 ;
+    else
+        sayi = (sayi * 3) + 1;
+}
+printf("%d",adim);
+
+}
