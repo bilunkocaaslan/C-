@@ -1,1 +1,28 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+
+
+int main() {
+    
+int sayi;
+cin >> sayi;
+int bolenToplam = 0;
+
+for(int i = 1 ; i < sayi ; i++)
+{
+    
+    if (sayi % i == 0)
+       bolenToplam += i;
+}
+
+if (bolenToplam == sayi)
+printf("mükemmel");
+  
+else
+printf("mükemmel değil");
+  
+
+    
+}
 
