@@ -1,0 +1,22 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+
+int main(int argc, char* argv[]) {
+    
+string d1;
+string d2;
+cin >> d1;
+cin >> d2;
+
+   if (d1==d2)
+       printf("Berabere");
+   else if (d1 == "makas" && d2 == "kağıt")
+       printf("birinci oyuncu kazandı");
+   else if (d1 == "kağıt" && d2 == "taş")
+       printf("birinci oyuncu kazandı");
+   else if(d1 == "taş" && d2 == "makas")
+       printf("birinci oyuncu kazandı");
+   else 
+       printf("ikinci oyuncu kazandı");
+}
